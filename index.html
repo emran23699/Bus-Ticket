@@ -19,11 +19,11 @@
 
 <body>
     <!------------- nav related ------------------>
-    <header class="mr-16 ml-16 pt-10">
+    <header class="mx-16 pt-10">
         <nav>
             <div class="navbar ">
                 <div class="flex-1 ">
-                    <h1 class="text-4xl font-bold">Emran Express</h1>
+                    <h1 class="text-4xl font-bold text-orange-600">Emran Express</h1>
                 </div>
                 <div class="flex gap-2 text-2xl btn btn-primary">
                     <h2>Bus</h2>
@@ -33,15 +33,14 @@
         </nav>
     </header>
     <!--------------main content--------->
-    <main>
-
-        <section>
-            <div class="hero h-96 ml-16   w-10/12/12  " style="background-image: url(images/banner.png);">
-                <div class="hero-overlay bg-opacity-60"></div>
+    <main class="mx-16">
+        <section class="rounded-md">
+            <div class="hero h-[60vh]   " style="background-image: url(images/banner.png);border-radius: 8px;" >
+                <div class="hero-overlay rounded-md"></div>
                 <div class="hero-content text-center text-neutral-content">
                     <div class="max-w-md">
-                        <h1 class="mb-5 text-4xl font-bold">End-to-End Travel with <br> <span class="text-green-500">P
-                                Paribahan</span></h1>
+                        <h1 class="mb-5 text-4xl font-bold">End-to-End Travel with <br> <span
+                                class="text-green-500">Emran Express</span></h1>
                         <p class="mb-5">Yes, you can run unit tests and view the results directly within the app. The
                             integrated testing features allow for a streamlined .</p>
                         <button class="btn btn-primary">Buy Tickets</button>
@@ -53,7 +52,26 @@
         <!----------Best offers Related content------->
 
         <section>
-
+            <div class="stack">
+                <div class="card shadow-md bg-primary text-primary-content">
+                  <div class="card-body">
+                    <h2 class="card-title">Notification 1</h2> 
+                    <p>You have 3 unread messages. Tap here to see.</p>
+                  </div>
+                </div> 
+                <div class="card shadow bg-primary text-primary-content">
+                  <div class="card-body">
+                    <h2 class="card-title">Notification 2</h2> 
+                    <p>You have 3 unread messages. Tap here to see.</p>
+                  </div>
+                </div> 
+                <div class="card shadow-sm bg-primary text-primary-content">
+                  <div class="card-body">
+                    <h2 class="card-title">Notification 3</h2> 
+                    <p>You have 3 unread messages. Tap here to see.</p>
+                  </div>
+                </div>
+              </div>
         </section>
 
     </main>
